@@ -76,5 +76,11 @@ nav>ul>li>a{
 .banner>img{
     width: 288px;
     height: 264px;
+    transition-duration: 50s;
+    transition-timing-function: ease-in-out;
     
+}
+.banner:hover{
+    transform: scale(0.6);
+   
 }
