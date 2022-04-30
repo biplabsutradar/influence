@@ -112,9 +112,10 @@ nav>ul>li>a{
 ------------------------------------ */
 .containers{
     display: grid;
+    justify-content: center;
     grid-template-columns:repeat(3,1fr);
-    grid-column-gap: 3px;
     grid-row-gap: 21px;
+    margin: 0px 138px;
 }
 .airticle-title{
     display: flex;
