@@ -10,6 +10,9 @@ main{
 .main-containers{
     margin-top:29.4px;
 }
+section.main-containe {
+    margin: 20px 133px;
+}
 
 /* header style */
 .main-menu,.header-airticles{
@@ -114,6 +117,7 @@ nav>ul>li>a{
     display: grid;
     justify-content: center;
     grid-template-columns:repeat(3,1fr);
+    grid-column-gap:21px;
     grid-row-gap: 21px;
     margin: 0px 138px;
 }
@@ -137,7 +141,7 @@ nav>ul>li>a{
     height:250.92px;
 }
 .product-info{
-    margin-left:7px;
+    margin-left:15px;
 }
 .product-rating{
     display: flex;
@@ -191,6 +195,10 @@ nav>ul>li>a{
     height:250.92px;
    margin-right: 20px;
 
+}
+.product-airticle {
+    width: 610px;
+    height: 210px;
 }
 .button-3{
     display: flex;
