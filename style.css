@@ -240,7 +240,7 @@ footer{
     padding: 0px 79px;
 }
 .main-footer-container p{
-    margin:3px 0px;
+    margin:17px 0px;
 }
 .main-footer-container img{
    width:14px;
@@ -253,12 +253,14 @@ footer{
     width: 176px;
     height: 32px;
     padding: 0px 57px;
+    justify-content: space-between;
 }
 .media-icon{
     width: 32px;
-    height:32px;
-    background-color:#FB8200;
-    border-radius:15px;
+    height: 32px;
+    background-color: #AAAAAA;
+    opacity: 0.8;
+    border-radius: 15px;
     margin-left: 5px;
 }
 .fa-brands, .fab {
